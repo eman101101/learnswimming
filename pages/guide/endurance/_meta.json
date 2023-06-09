@@ -1,5 +1,7 @@
 {
-    "drills": "Drills",
-    "interval": "Interval",
-    "pacing": "Pacing"
+    "drills": "Endurance Drills",
+    "pacing": "Improving Pacing",
+    "interval": "Interval Training",
+    "distance": "Distance Training",
+    "speed": "Speed Training"
   }
