@@ -10,6 +10,14 @@ const config: DocsThemeConfig = {
   footer: {
     text: 'Created by Evan Koumarelas Using Nextra',
   },
+  logo: (
+    <>
+      <img src="/images/icon.svg" style={{ width: '24px', height: '24px'}}/>
+      <span style={{ marginLeft: '.4em', fontWeight: 500 }}>
+        Learn Swimming
+      </span>
+    </>
+  ),
 }
 
 export default config
