@@ -1,5 +1,6 @@
 import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
+import Image from 'next/image';
 
 const config: DocsThemeConfig = {
   project: {
@@ -7,16 +8,18 @@ const config: DocsThemeConfig = {
   },
   docsRepositoryBase: 'https://github.com/eman101101/learnswimming/blob/main',
   footer: {
-    text: 'Created by Evan Koumarelas Using Nextra',
+    text: <span>
+       <b>Created using Nextra and Next.Js <br></br></b>© {new Date().getFullYear()}   - Evan Koumarelas
+    </span>,
   },
   logo: (
     <>
-      <img src="/images/icon.svg" style={{ width: '24px', height: '24px'}}/>
-      <span style={{ marginLeft: '.4em', fontWeight: 500 }}>
-        Learn Swimming
-      </span>
+<Image src="/images/learnlogo.png" alt="Hello" width={100} height={100} />
     </>
   ),
+  search: {
+    placeholder: 'Search the Guide...',
+  },
 }
 
 export default config

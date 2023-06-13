@@ -53,11 +53,7 @@ export default function Home() {
 </h1>
 
    <div style={{ display: 'flex', justifyContent: 'center' }}>
-<Link href="/guide">
   <p className="header-text" style={{
-    backgroundColor: '#2a73c8',
-    color: 'white',
-    padding: '12px 32px 16px',
     borderRadius: '30px',
     textDecoration: 'none',
     fontSize: '1.25rem',
@@ -72,7 +68,6 @@ export default function Home() {
       borderRadius: '30px'
     }} />
   </p>
-</Link>
   </div>
   <p className="header-text" style={{
     fontFamily: 'Montserrat, sans-serif',
@@ -84,11 +79,59 @@ export default function Home() {
   }}>
   Hi there my name's Evan, and welcome to my swimming guide! 
 I'm a lifeguard and swim instructor who's been working in community centers in Toronto and Mississauga for the last 8 years.
-My experience with teaching a variety of swimming classes allows me to know effective learning strategies for those inexperienced with swimming.
+My experience with teaching a variety of swimming classes allows me to teach great swimming lessons to those at any level of swimming knowledge.
 I wanted to create a completely free swimming guide 
 online that anyone could use to learn to swim.
 This site is built with Next.js, Nextra and Anime JS
-  </p>
+<br></br><br></br>
+If you have any questions you can contact me at my Linkedin or my email:     <Link href="https://www.linkedin.com/in/evan-koumarelas">
+          <p className="header-text" style={{
+            backgroundColor: '#3e9aff',
+            color: 'white',
+            padding: '12px 32px',
+            borderRadius: '30px',
+            textDecoration: 'none',
+            fontSize: '1.25rem',
+            boxShadow: '0px 5px 10px rgba(0, 0, 0, 0.25)',
+            display: 'inline-block',
+            textAlign: 'center'
+          }}>
+            Linkedin 
+          </p>
+        </Link>        <Link href="mailto:evankoumarelas@hotmail.com">
+          <p className="header-text" style={{
+            backgroundColor: '#3e9aff',
+            color: 'white',
+            padding: '12px 32px',
+            borderRadius: '30px',
+            textDecoration: 'none',
+            fontSize: '1.25rem',
+            boxShadow: '0px 5px 10px rgba(0, 0, 0, 0.25)',
+            display: 'inline-block',
+            textAlign: 'center'
+          }}>
+            Email
+          </p>
+        </Link></p>
+      <Image
+  style={{
+    position: 'fixed',
+    bottom: 0,
+    right: 0,
+    zIndex: -1,
+    width: '100%',
+    height: 'auto',
+  }}
+  src="/images/wave.png"
+  alt="Background wave"
+  layout="responsive"
+  width={1}
+  height={0.2}
+  objectFit="cover"
+  objectPosition="center bottom"
+  quality={100}
+/> 
+
     </>
 
     

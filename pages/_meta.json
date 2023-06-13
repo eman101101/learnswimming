@@ -1,9 +1,9 @@
 {
-    "index": {
+  "index": {
         "title": "Home",
         "type": "page"
       },
-    "guide": {
+  "guide": {
         "title": "Guide",
         "type": "page"
       },
